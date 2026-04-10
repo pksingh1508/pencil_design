@@ -1,0 +1,3145 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "rsplL",
+      "x": -115,
+      "y": -460,
+      "name": "Fitora Logo Board",
+      "theme": {
+        "mode": "light"
+      },
+      "width": 520,
+      "height": 320,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "NQ5lw",
+          "name": "logoMeta",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "dNhuC",
+              "name": "logoEyebrow",
+              "fill": "$text-muted",
+              "content": "FITORA HEALTH SYSTEM",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 1.2
+            },
+            {
+              "type": "text",
+              "id": "AKf78",
+              "name": "logoTitle",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Move better. Eat smarter. Live in rhythm.",
+              "lineHeight": 1,
+              "fontFamily": "$font-heading",
+              "fontSize": 36,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c3M5c",
+          "name": "logoRow",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "56UmX",
+              "name": "logoCard",
+              "width": 220,
+              "height": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 145,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#E8F8DF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#BDEB7A",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": "$radius-xl",
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VA1BQ",
+                  "name": "logoCore",
+                  "width": 120,
+                  "height": 120,
+                  "fill": "$card-dark",
+                  "cornerRadius": 40,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "dwid7",
+                      "x": 20,
+                      "y": 14,
+                      "name": "logoOrbit",
+                      "fill": "$accent",
+                      "width": 78,
+                      "height": 92
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "usrMw",
+                      "x": 66,
+                      "y": 28,
+                      "name": "logoSpark",
+                      "fill": "$warning",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "path",
+                      "id": "2sINA",
+                      "x": 38,
+                      "y": 24,
+                      "name": "logoPath",
+                      "geometry": "M26.015 0c10.145 5.483 16.011 17.254 17.715 29.446 1.896 13.551-0.875 28.385-9.667 39.323-6.292-8.557-11.406-18.038-16.607-27.332-5.494-9.817-11.531-19.624-17.456-29.19 8.242-6.567 17.46-10.379 26.015-12.247z",
+                      "fill": "$card-dark",
+                      "width": 44,
+                      "height": 64
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s4ERv",
+              "name": "wordCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1lWEZ",
+                  "name": "wordmark",
+                  "fill": "$text",
+                  "content": "Fitora",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 56,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "JZ3pp",
+                  "name": "wordSub",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "An adaptive wellness companion for calories, recovery, movement, meals, and goal-led routines across iOS and Android.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "orKT5",
+      "x": 525,
+      "y": -460,
+      "name": "Fitora App Icon Board",
+      "theme": {
+        "mode": "light"
+      },
+      "width": 320,
+      "height": 320,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "qw4dk",
+          "name": "iconLabel",
+          "fill": "$text-muted",
+          "content": "APP ICONS",
+          "fontFamily": "$font-body",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "letterSpacing": 1.2
+        },
+        {
+          "type": "frame",
+          "id": "dPE0l",
+          "name": "iconRow",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jpBD8",
+              "name": "iosIcon",
+              "width": 118,
+              "height": 118,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 145,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#173122",
+                    "position": 0
+                  },
+                  {
+                    "color": "#75D451",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "sqcKx",
+                  "x": 25,
+                  "y": 18,
+                  "name": "iosLeaf",
+                  "fill": "#E8F8DF",
+                  "width": 58,
+                  "height": 72
+                },
+                {
+                  "type": "ellipse",
+                  "id": "ypBkv",
+                  "x": 71,
+                  "y": 24,
+                  "name": "iosAccent",
+                  "fill": "$warning",
+                  "width": 22,
+                  "height": 22
+                },
+                {
+                  "type": "path",
+                  "id": "LpMrQ",
+                  "x": 40,
+                  "y": 28,
+                  "name": "iosCut",
+                  "geometry": "M17.706 0c6.901 3.731 10.894 11.742 12.053 20.042 1.29 9.225-0.596 19.322-6.578 26.772-4.282-5.829-7.761-12.285-11.3-18.617-3.737-6.687-7.846-13.381-11.881-19.895 5.608-4.471 11.879-7.066 17.706-8.302z",
+                  "fill": "#173122",
+                  "width": 30,
+                  "height": 46
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n37Nd",
+              "name": "androidIcon",
+              "width": 118,
+              "height": 118,
+              "fill": "$surface",
+              "cornerRadius": 36,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YEZ2R",
+                  "x": 17,
+                  "y": 17,
+                  "name": "androidCore",
+                  "width": 84,
+                  "height": 84,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#E8F8DF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#BDEB7A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 28,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "RCrUa",
+                      "x": 18,
+                      "y": 12,
+                      "name": "androidLeaf",
+                      "fill": "$card-dark",
+                      "width": 48,
+                      "height": 60
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "0MaBj",
+                      "x": 54,
+                      "y": 20,
+                      "name": "androidAccent",
+                      "fill": "$warning",
+                      "width": 18,
+                      "height": 18
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ENe0z",
+      "x": 960,
+      "y": -163,
+      "name": "Fitora Splash Light",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#F4F7F1",
+            "position": 0
+          },
+          {
+            "color": "#DFF6D8",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "gap": 24,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pqSUq",
+          "name": "lightMarkWrap",
+          "width": 144,
+          "height": 144,
+          "fill": "#112219",
+          "cornerRadius": 44,
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QCxqR",
+              "name": "lightMark",
+              "width": 88,
+              "height": 88,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "2fOB7",
+                  "x": 6,
+                  "y": 0,
+                  "name": "lightLeaf",
+                  "fill": "$accent",
+                  "width": 56,
+                  "height": 70
+                },
+                {
+                  "type": "ellipse",
+                  "id": "k5juN",
+                  "x": 54,
+                  "y": 8,
+                  "name": "lightDot",
+                  "fill": "$warning",
+                  "width": 18,
+                  "height": 18
+                },
+                {
+                  "type": "path",
+                  "id": "UoQrv",
+                  "x": 21,
+                  "y": 10,
+                  "name": "lightCut",
+                  "geometry": "M17.706 0c6.901 3.731 10.894 11.742 12.053 20.042 1.29 9.225-0.596 19.322-6.578 26.772-4.282-5.829-7.761-12.285-11.3-18.617-3.737-6.687-7.846-13.381-11.881-19.895 5.608-4.471 11.879-7.066 17.706-8.302z",
+                  "fill": "#112219",
+                  "width": 28,
+                  "height": 42
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "s7e5f",
+          "name": "lightName",
+          "fill": "#102018",
+          "content": "Fitora",
+          "fontFamily": "Funnel Sans",
+          "fontSize": 42,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "KJyh1",
+          "name": "lightTag",
+          "fill": "#5B6B62",
+          "content": "Build healthy momentum every day.",
+          "fontFamily": "Geist",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "wkCEd",
+          "name": "lightBadge",
+          "fill": "#FFFFFFAA",
+          "cornerRadius": 999,
+          "effect": {
+            "type": "background_blur",
+            "radius": 10
+          },
+          "gap": 10,
+          "padding": [
+            10,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zjv2q",
+              "name": "lightBadgeText",
+              "fill": "#102018",
+              "content": "Nutrition + movement + plans",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JvjGI",
+      "x": 1410,
+      "y": 60,
+      "name": "Fitora Splash Dark",
+      "theme": {
+        "mode": "dark",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#0D1411",
+            "position": 0
+          },
+          {
+            "color": "#173122",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "gap": 24,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "8vgU1",
+          "name": "darkMarkWrap",
+          "width": 144,
+          "height": 144,
+          "fill": "#DFF6D8",
+          "cornerRadius": 44,
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Vhfkn",
+              "name": "darkMark",
+              "width": 88,
+              "height": 88,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "ug7vV",
+                  "x": 6,
+                  "y": 0,
+                  "name": "darkLeaf",
+                  "fill": "#173122",
+                  "width": 56,
+                  "height": 70
+                },
+                {
+                  "type": "ellipse",
+                  "id": "nIZe5",
+                  "x": 54,
+                  "y": 8,
+                  "name": "darkDot",
+                  "fill": "$warning",
+                  "width": 18,
+                  "height": 18
+                },
+                {
+                  "type": "path",
+                  "id": "OW4JS",
+                  "x": 21,
+                  "y": 10,
+                  "name": "darkCut",
+                  "geometry": "M17.706 0c6.901 3.731 10.894 11.742 12.053 20.042 1.29 9.225-0.596 19.322-6.578 26.772-4.282-5.829-7.761-12.285-11.3-18.617-3.737-6.687-7.846-13.381-11.881-19.895 5.608-4.471 11.879-7.066 17.706-8.302z",
+                  "fill": "#DFF6D8",
+                  "width": 28,
+                  "height": 42
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "GX02G",
+          "name": "darkName",
+          "fill": "#F5F8F4",
+          "content": "Fitora",
+          "fontFamily": "Funnel Sans",
+          "fontSize": 42,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "rLYNo",
+          "name": "darkTag",
+          "fill": "#9FB3A8",
+          "content": "Build healthy momentum every day.",
+          "fontFamily": "Geist",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "Tx7d4",
+          "name": "darkBadge",
+          "fill": "#15201BCC",
+          "cornerRadius": 999,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#24372F"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 8
+          },
+          "gap": 10,
+          "padding": [
+            10,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Eml7l",
+              "name": "darkBadgeText",
+              "fill": "#F5F8F4",
+              "content": "Nutrition + movement + plans",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "S0uxR",
+      "x": 60,
+      "y": 440,
+      "name": "iOS Light / Onboarding",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "kSsm4",
+          "name": "obStatus",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iWJxc",
+              "name": "obTime",
+              "fill": "$text",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "rbD5l",
+              "name": "obState",
+              "fill": "$text",
+              "content": "LTE  98%",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iYfbw",
+          "name": "obWrap",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZFv9B",
+              "name": "obHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TYFHu",
+                  "name": "obEyebrow",
+                  "fill": "$text-muted",
+                  "content": "YOUR DAILY HEALTH OS",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "sARpX",
+                  "name": "obTitle",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Track food, movement, weight, and recovery from one calm dashboard.",
+                  "lineHeight": 1.02,
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "RnSHN",
+                  "name": "obSub",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Fitora builds adaptive meal plans, workouts, and nutrient insights from your real daily behavior.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aepNh",
+              "name": "hero",
+              "width": "fill_container",
+              "height": 240,
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wbymz",
+                  "name": "heroMain",
+                  "width": 220,
+                  "height": "fill_container",
+                  "fill": "$card-dark",
+                  "cornerRadius": 28,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x5wLy",
+                      "name": "heroBigNum",
+                      "fill": "#F5F8F4",
+                      "content": "08.4",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pUfIH",
+                      "name": "heroBigLabel",
+                      "fill": "#9FB3A8",
+                      "content": "km walked today",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HxwOI",
+                      "name": "heroBar",
+                      "width": "fill_container",
+                      "height": 72,
+                      "gap": 8,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fLKcW",
+                          "name": "bar1",
+                          "width": "fill_container",
+                          "height": 28,
+                          "fill": "#2A4335",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "upxl6",
+                          "name": "bar2",
+                          "width": "fill_container",
+                          "height": 46,
+                          "fill": "#4FAF61",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gTJWJ",
+                          "name": "bar3",
+                          "width": "fill_container",
+                          "height": 62,
+                          "fill": "$card-lime",
+                          "cornerRadius": 999
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C27XR",
+                  "name": "heroMini",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F8y57",
+                      "name": "cardA",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 24,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U2bKd",
+                          "name": "cardATitle",
+                          "fill": "$text-muted",
+                          "content": "Calorie balance",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TfL3h",
+                          "name": "cardAVal",
+                          "fill": "$text",
+                          "content": "1,842 / 2,100",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZsyrG",
+                      "name": "cardB",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$card-mint",
+                      "cornerRadius": 24,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HXson",
+                          "name": "cardBTitle",
+                          "fill": "$text-muted",
+                          "content": "AI food scan",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1a4hm",
+                          "name": "cardBVal",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Snap a plate. Get macros + micronutrients instantly.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OlA2L",
+              "name": "featureList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vp34R",
+                  "name": "feature1",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 20,
+                  "gap": 12,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "B1hBr",
+                      "name": "feature1Dot",
+                      "fill": "$accent",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hp7UX",
+                      "name": "feature1Text",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Adaptive meal plans based on your goals, routine, and intake history.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S6pST",
+                  "name": "feature2",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 20,
+                  "gap": 12,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "s2gb8",
+                      "name": "feature2Dot",
+                      "fill": "$warning",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "4QoXt",
+                      "name": "feature2Text",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Workout plans, weight check-ins, and walking distance in one timeline.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hCGD8",
+              "name": "cta",
+              "width": "fill_container",
+              "fill": "$accent",
+              "cornerRadius": 24,
+              "padding": 18,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RZlER",
+                  "name": "ctaText",
+                  "fill": "#102018",
+                  "content": "Start your health profile",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "eD1LM",
+                  "name": "ctaArrow",
+                  "fill": "#102018",
+                  "content": "->",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iCNNT",
+      "x": 490,
+      "y": 440,
+      "name": "iOS Light / Home",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "5znuz",
+          "name": "hStatus",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UxFaL",
+              "name": "hTime",
+              "fill": "$text",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "RX3jm",
+              "name": "hState",
+              "fill": "$text",
+              "content": "5G  96%",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NFiaY",
+          "name": "hWrap",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "sYa0k",
+              "name": "hHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "58oGX",
+                  "name": "hTitleCol",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LSHRJ",
+                      "name": "hGreet",
+                      "fill": "$text",
+                      "content": "Good morning, Pawan",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jYI9D",
+                      "name": "hMeta",
+                      "fill": "$text-muted",
+                      "content": "Fri 10 Apr  •  Goal: lose 4 kg sustainably",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Dqb6M",
+                  "name": "hAvatar",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "$card-lime",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oZb8v",
+                      "name": "hAvatarText",
+                      "fill": "$text",
+                      "content": "P",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2b55s",
+              "name": "hero",
+              "width": "fill_container",
+              "height": 210,
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2lq3E",
+                  "name": "heroLeft",
+                  "width": 210,
+                  "height": "fill_container",
+                  "fill": "$card-dark",
+                  "cornerRadius": 28,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VZY2m",
+                      "name": "heroBadge",
+                      "fill": "#9FB3A8",
+                      "content": "TODAY SCORE 84/100",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kgVHa",
+                      "name": "heroSteps",
+                      "fill": "#F5F8F4",
+                      "content": "8,428",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k30Ph",
+                      "name": "heroStepsLbl",
+                      "fill": "#9FB3A8",
+                      "content": "steps • 6.2 km • 612 kcal active",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L6LRk",
+                      "name": "heroBars",
+                      "width": "fill_container",
+                      "height": 62,
+                      "gap": 8,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1Cfpu",
+                          "name": "hb1",
+                          "width": "fill_container",
+                          "height": 22,
+                          "fill": "#294135",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "34Tp3",
+                          "name": "hb2",
+                          "width": "fill_container",
+                          "height": 38,
+                          "fill": "#407F4C",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "onART",
+                          "name": "hb3",
+                          "width": "fill_container",
+                          "height": 56,
+                          "fill": "$accent",
+                          "cornerRadius": 999
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4Unjp",
+                  "name": "heroRight",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OCfkE",
+                      "name": "ringCard",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 24,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "k8taU",
+                          "name": "ringLabel",
+                          "fill": "$text-muted",
+                          "content": "Nutrition balance",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SXGKp",
+                          "name": "ringVal",
+                          "fill": "$text",
+                          "content": "Protein 126g",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DKbTG",
+                          "name": "ringViz",
+                          "width": "fill_container",
+                          "height": 86,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "f4r40",
+                              "name": "donut",
+                              "innerRadius": 0.62,
+                              "fill": "$accent",
+                              "width": 74,
+                              "height": 74
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ycwnc",
+                              "name": "donutText",
+                              "fill": "$text",
+                              "textGrowth": "fixed-width",
+                              "width": 86,
+                              "content": "78%\ncomplete",
+                              "lineHeight": 1.15,
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pBUBb",
+                      "name": "quickCard",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$card-mint",
+                      "cornerRadius": 24,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1zsVw",
+                          "name": "quickTitle",
+                          "fill": "$text-muted",
+                          "content": "Next win",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G21vu",
+                          "name": "quickText",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Log lunch before 1:30 PM to keep your macro pacing on track.",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q1Zeu",
+              "name": "mealRow",
+              "width": "fill_container",
+              "height": 120,
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FHcLz",
+                  "name": "meal1",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NNNfq",
+                      "name": "meal1Name",
+                      "fill": "$text-muted",
+                      "content": "Breakfast",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i56sT",
+                      "name": "meal1Val",
+                      "fill": "$text",
+                      "content": "420 kcal",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eM3IZ",
+                      "name": "meal1Meta",
+                      "fill": "$text-muted",
+                      "content": "Egg toast • 28g protein",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7G430",
+                  "name": "meal2",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$card-mint",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tw6mV",
+                      "name": "meal2Name",
+                      "fill": "$text-muted",
+                      "content": "Lunch plan",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LIQfx",
+                      "name": "meal2Val",
+                      "fill": "$text",
+                      "content": "Salmon bowl",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QT0GT",
+                      "name": "meal2Meta",
+                      "fill": "$text-muted",
+                      "content": "Ready at 1:00 PM",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HLVY5",
+              "name": "coachCard",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OGAqQ",
+                  "name": "coachHead",
+                  "fill": "$text-muted",
+                  "content": "Coach insight",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "cKlu4",
+                  "name": "coachText",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Your activity is strong today. Add a lighter-carb dinner and 18 minutes of mobility to improve recovery score tonight.",
+                  "lineHeight": 1.38,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q4mxv",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 749,
+          "name": "tabWrap",
+          "width": 390,
+          "height": 95,
+          "padding": [
+            12,
+            21,
+            21,
+            21
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3XmqB",
+              "name": "tabPill",
+              "width": "fill_container",
+              "height": 62,
+              "fill": "#FFFFFFD9",
+              "cornerRadius": 36,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "effect": {
+                "type": "background_blur",
+                "radius": 8
+              },
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tdF9H",
+                  "name": "tabHome",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KiI3K",
+                      "name": "tabHomeLbl",
+                      "fill": "#102018",
+                      "content": "HOME",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mfKNs",
+                  "name": "tabMeals",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0H1sX",
+                      "name": "tabMealsLbl",
+                      "fill": "$text-muted",
+                      "content": "SCAN",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aRpi7",
+                  "name": "tabPlans",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dY6XI",
+                      "name": "tabPlansLbl",
+                      "fill": "$text-muted",
+                      "content": "PLANS",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rEUhL",
+                  "name": "tabMore",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nT2eX",
+                      "name": "tabMoreLbl",
+                      "fill": "$text-muted",
+                      "content": "MORE",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VvHmc",
+      "x": 920,
+      "y": 440,
+      "name": "iOS Light / Food Scan",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mpajf",
+          "name": "sStatus",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "hHgZ1",
+              "name": "sTime",
+              "fill": "$text",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ydd8J",
+              "name": "sState",
+              "fill": "$text",
+              "content": "5G  96%",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "x01lG",
+          "name": "sWrap",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XnJrV",
+              "name": "sHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LFY1R",
+                  "name": "sTitleCol",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BoASp",
+                      "name": "sTitle",
+                      "fill": "$text",
+                      "content": "Food scan",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S0gZO",
+                      "name": "sMeta",
+                      "fill": "$text-muted",
+                      "content": "AI-recognized nutrients from a single photo",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vrvbl",
+                  "name": "scanAction",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$surface",
+                  "cornerRadius": 22,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2Wc7J",
+                      "name": "scanActionTxt",
+                      "fill": "$text",
+                      "content": "+",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bHhVO",
+              "name": "cam",
+              "width": "fill_container",
+              "height": 286,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#15201B",
+                    "position": 0
+                  },
+                  {
+                    "color": "#294135",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 30,
+              "layout": "vertical",
+              "padding": 18,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "veAHi",
+                  "name": "camTop",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NYqY8",
+                      "name": "camBadge",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "7eOqq",
+                          "name": "camBadgeTxt",
+                          "fill": "#F5F8F4",
+                          "content": "LIVE ANALYSIS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g7gsV",
+                  "name": "camFrame",
+                  "width": "fill_container",
+                  "height": 180,
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#BDEB7A"
+                  },
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DXdFt",
+                      "name": "camFrameTxt",
+                      "fill": "#F5F8F4",
+                      "content": "Center your plate",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1SZB9",
+              "name": "recRow",
+              "width": "fill_container",
+              "height": 118,
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x2YvS",
+                  "name": "rec1",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vv0Ld",
+                      "name": "rec1Name",
+                      "fill": "$text-muted",
+                      "content": "Detected",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Qg3v",
+                      "name": "rec1Val",
+                      "fill": "$text",
+                      "content": "Salmon + rice",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b1xub",
+                  "name": "rec2",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$card-mint",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sZgvd",
+                      "name": "rec2Name",
+                      "fill": "$text-muted",
+                      "content": "Estimated",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o7NN7",
+                      "name": "rec2Val",
+                      "fill": "$text",
+                      "content": "612 kcal",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XHIJP",
+              "name": "macroCard",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jj3zW",
+                  "name": "macroTitle",
+                  "fill": "$text-muted",
+                  "content": "Macro + micronutrient write-up",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "2z92U",
+                  "name": "macroBody",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Protein 39g, carbs 52g, fat 21g. High in omega-3, selenium, B12, and vitamin D. Fitora recommends adding greens for fiber balance.",
+                  "lineHeight": 1.38,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mJXrx",
+              "name": "scanCTA",
+              "width": "fill_container",
+              "fill": "$accent",
+              "cornerRadius": 24,
+              "padding": 18,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IWqcY",
+                  "name": "scanCTAText",
+                  "fill": "#102018",
+                  "content": "Save and log this meal",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ElHdU",
+                  "name": "scanCTAArrow",
+                  "fill": "#102018",
+                  "content": "->",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FFM7m",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 749,
+          "name": "tabWrap",
+          "width": 390,
+          "height": 95,
+          "padding": [
+            12,
+            21,
+            21,
+            21
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fzGPM",
+              "name": "tabPill",
+              "width": "fill_container",
+              "height": 62,
+              "fill": "#FFFFFFD9",
+              "cornerRadius": 36,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "effect": {
+                "type": "background_blur",
+                "radius": 8
+              },
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h3Hlt",
+                  "name": "tabHome",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eDTfv",
+                      "name": "tabHomeLbl",
+                      "fill": "$text-muted",
+                      "content": "HOME",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jroOt",
+                  "name": "tabMeals",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ce7mz",
+                      "name": "tabMealsLbl",
+                      "fill": "#102018",
+                      "content": "SCAN",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "INtwm",
+                  "name": "tabPlans",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sdXmk",
+                      "name": "tabPlansLbl",
+                      "fill": "$text-muted",
+                      "content": "PLANS",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vcQ2H",
+                  "name": "tabMore",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZPJ7n",
+                      "name": "tabMoreLbl",
+                      "fill": "$text-muted",
+                      "content": "MORE",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "N9Ofh",
+      "x": 1350,
+      "y": 440,
+      "name": "iOS Light / Plans",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "S7rRP",
+          "name": "pStatus",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1GSHu",
+              "name": "pTime",
+              "fill": "$text",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "X3DYJ",
+              "name": "pState",
+              "fill": "$text",
+              "content": "5G  96%",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dMjeZ",
+          "name": "pWrap",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "0QnIt",
+              "name": "pHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H5K7g",
+                  "name": "pTitle",
+                  "fill": "$text",
+                  "content": "Daily plans",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "91oEf",
+                  "name": "pMeta",
+                  "fill": "$text-muted",
+                  "content": "Adaptive diet and exercise routines for your target",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XK2uu",
+              "name": "segment",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 24,
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "J9L62",
+                  "name": "seg1",
+                  "width": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "padding": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "09JNP",
+                      "name": "seg1Txt",
+                      "fill": "#102018",
+                      "content": "DIET",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8uhwR",
+                  "name": "seg2",
+                  "width": "fill_container",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "padding": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tn6jH",
+                      "name": "seg2Txt",
+                      "fill": "$text-muted",
+                      "content": "EXERCISE",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZM3Du",
+              "name": "planHero",
+              "width": "fill_container",
+              "fill": "$card-dark",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dsBBV",
+                  "name": "planHeroTag",
+                  "fill": "#9FB3A8",
+                  "content": "GOAL: FAT LOSS + HIGH ENERGY",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "gdLWI",
+                  "name": "planHeroTitle",
+                  "fill": "#F5F8F4",
+                  "content": "2,050 kcal • 3 meals • 1 snack",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Fwmjz",
+                  "name": "planHeroSub",
+                  "fill": "#9FB3A8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Balanced around your usual walking volume and 6:30 PM strength session.",
+                  "lineHeight": 1.38,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0gtRv",
+              "name": "schedule",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nbD0s",
+                  "name": "mealA",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 22,
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PkSEh",
+                      "name": "mealATime",
+                      "fill": "$text",
+                      "content": "08:00",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qtwka",
+                      "name": "mealAInfo",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Greek yogurt bowl • 430 kcal",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OPKxJ",
+                  "name": "mealB",
+                  "width": "fill_container",
+                  "fill": "$card-mint",
+                  "cornerRadius": 22,
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7iSji",
+                      "name": "mealBTime",
+                      "fill": "$text",
+                      "content": "18:30",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FcDdK",
+                      "name": "mealBInfo",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Strength + intervals • 45 min",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Nt7mT",
+              "name": "planCTA",
+              "width": "fill_container",
+              "fill": "$accent",
+              "cornerRadius": 24,
+              "padding": 18,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5zGBW",
+                  "name": "planCTAText",
+                  "fill": "#102018",
+                  "content": "Regenerate plan",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "gma95",
+                  "name": "planCTAArrow",
+                  "fill": "#102018",
+                  "content": "->",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zqTws",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 749,
+          "name": "tabWrap",
+          "width": 390,
+          "height": 95,
+          "padding": [
+            12,
+            21,
+            21,
+            21
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "48bj0",
+              "name": "tabPill",
+              "width": "fill_container",
+              "height": 62,
+              "fill": "#FFFFFFD9",
+              "cornerRadius": 36,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "effect": {
+                "type": "background_blur",
+                "radius": 8
+              },
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sXXNK",
+                  "name": "tabHome",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SW9Zs",
+                      "name": "tabHomeLbl",
+                      "fill": "$text-muted",
+                      "content": "HOME",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WJdqE",
+                  "name": "tabScan",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vkTfX",
+                      "name": "tabScanLbl",
+                      "fill": "$text-muted",
+                      "content": "SCAN",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rAkXg",
+                  "name": "tabPlans",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WSLRG",
+                      "name": "tabPlansLbl",
+                      "fill": "#102018",
+                      "content": "PLANS",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NnGOr",
+                  "name": "tabMore",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aY8TG",
+                      "name": "tabMoreLbl",
+                      "fill": "$text-muted",
+                      "content": "MORE",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aux5L",
+      "x": 1780,
+      "y": 440,
+      "name": "iOS Light / Analytics",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lDIIy",
+          "name": "aStatus",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "d1o0L",
+              "name": "aTime",
+              "fill": "$text",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "acvOn",
+              "name": "aState",
+              "fill": "$text",
+              "content": "5G  96%",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UtwXL",
+          "name": "aWrap",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "4KCKv",
+              "name": "aHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fgNUr",
+                  "name": "aTitle",
+                  "fill": "$text",
+                  "content": "Analytics",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "umSbL",
+                  "name": "aMeta",
+                  "fill": "$text-muted",
+                  "content": "Weight, movement, and consistency trends",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g8b8O",
+              "name": "stats",
+              "width": "fill_container",
+              "height": 110,
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7POtY",
+                  "name": "stat1",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XSAqk",
+                      "name": "stat1Label",
+                      "fill": "$text-muted",
+                      "content": "Weight",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m2D3E",
+                      "name": "stat1Val",
+                      "fill": "$text",
+                      "content": "74.6 kg",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N4q4K",
+                  "name": "stat2",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$card-mint",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uFslk",
+                      "name": "stat2Label",
+                      "fill": "$text-muted",
+                      "content": "Adherence",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V2erK",
+                      "name": "stat2Val",
+                      "fill": "$text",
+                      "content": "87%",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L0Nn2",
+              "name": "chartCard",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uGYmT",
+                  "name": "chartHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "reBGZ",
+                      "name": "chartTitle",
+                      "fill": "$text",
+                      "content": "7-day movement",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h9uUY",
+                      "name": "chartMeta",
+                      "fill": "$text-muted",
+                      "content": "avg 7.1 km",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w5vN6",
+                  "name": "chartBars",
+                  "width": "fill_container",
+                  "height": 160,
+                  "gap": 10,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rcSX3",
+                      "name": "aBar1",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#D9E9D5",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gt2h1",
+                      "name": "aBar2",
+                      "width": "fill_container",
+                      "height": 88,
+                      "fill": "#BCE7AE",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ugaOl",
+                      "name": "aBar3",
+                      "width": "fill_container",
+                      "height": 124,
+                      "fill": "$accent",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4uQdS",
+                      "name": "aBar4",
+                      "width": "fill_container",
+                      "height": 102,
+                      "fill": "#8ED8C8",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5LeZL",
+                      "name": "aBar5",
+                      "width": "fill_container",
+                      "height": 142,
+                      "fill": "$card-lime",
+                      "cornerRadius": 999
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tYaIO",
+              "name": "insight",
+              "width": "fill_container",
+              "fill": "$card-dark",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O1L9V",
+                  "name": "insightText",
+                  "fill": "#F5F8F4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Your pace is strongest on Tue and Thu. Plan harder training there and keep Sat as recovery to protect consistency.",
+                  "lineHeight": 1.38,
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nyfPN",
+      "x": 2210,
+      "y": 440,
+      "name": "iOS Light / Profile",
+      "theme": {
+        "mode": "light",
+        "platform": "ios"
+      },
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical"
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": "#72D350"
+    },
+    "accent-strong": {
+      "type": "color",
+      "value": "#3FAE4B"
+    },
+    "bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F4F7F1",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#0D1411",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DCE7DD",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#24372F",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "card-dark": {
+      "type": "color",
+      "value": "#112219"
+    },
+    "card-lime": {
+      "type": "color",
+      "value": "#C8F06A"
+    },
+    "card-mint": {
+      "type": "color",
+      "value": "#DFF6D8"
+    },
+    "chart-1": {
+      "type": "color",
+      "value": "#72D350"
+    },
+    "chart-2": {
+      "type": "color",
+      "value": "#34C3B3"
+    },
+    "chart-3": {
+      "type": "color",
+      "value": "#F7B548"
+    },
+    "chart-4": {
+      "type": "color",
+      "value": "#F06B57"
+    },
+    "danger": {
+      "type": "color",
+      "value": "#F06B57"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-data": {
+      "type": "string",
+      "value": "IBM Plex Mono"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Funnel Sans"
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 20
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 16
+    },
+    "radius-xl": {
+      "type": "number",
+      "value": 28
+    },
+    "screen-h": {
+      "type": "number",
+      "value": 844
+    },
+    "screen-w": {
+      "type": "number",
+      "value": 390
+    },
+    "space-1": {
+      "type": "number",
+      "value": 8
+    },
+    "space-2": {
+      "type": "number",
+      "value": 12
+    },
+    "space-3": {
+      "type": "number",
+      "value": 16
+    },
+    "space-4": {
+      "type": "number",
+      "value": 24
+    },
+    "space-5": {
+      "type": "number",
+      "value": 32
+    },
+    "surface": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#15201B",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "surface-alt": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EAF1E7",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#1B2A24",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#102018",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#F5F8F4",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text-muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5B6B62",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#9FB3A8",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "warning": {
+      "type": "color",
+      "value": "#F7B548"
+    }
+  }
+}
